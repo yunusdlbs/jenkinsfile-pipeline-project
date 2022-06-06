@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'python --version'
-                sh 'python https://github.com/yunusdlbs/jenkins-webhook/hello-world.py'
+                sh 'python https://raw.githubusercontent.com/yunusdlbs/jenkins-webhook/main/hello-world.py'
             }
         }
     }
