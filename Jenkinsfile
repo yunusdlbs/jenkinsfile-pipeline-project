@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'python --version'
-                sh 'python pipeline.py'
+                sh 'python ../jenkins-webhook/hello-world.py'
             }
         }
     }
